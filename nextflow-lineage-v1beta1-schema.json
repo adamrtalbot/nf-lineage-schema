@@ -507,6 +507,9 @@
                     "$ref": "#/definitions/WorkflowRun"
                 },
                 {
+                    "title": "Lineage Version Constraint",
+                    "description": "Version constraint for single workflow run lineage data - ensures the version field is present and set to 'lineage/v1beta1'",
+                    "type": "object",
                     "properties": {
                         "version": {
                             "type": "string",

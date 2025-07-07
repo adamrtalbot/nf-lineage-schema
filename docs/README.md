@@ -18,6 +18,8 @@
 
 * [Global Variables](./nextflow-lineage-v1beta1-schema-definitions-taskrun-properties-global-variables.md "Global variables defined in the task run") – `https://nextflow.io/schemas/lineage/v1beta1/lineage-schema.json#/definitions/TaskRun/properties/globalVars`
 
+* [Lineage Version Constraint](./nextflow-lineage-v1beta1-schema-oneof-single-workflow-run-allof-lineage-version-constraint.md "Version constraint for single workflow run lineage data - ensures the version field is present and set to 'lineage/v1beta1'") – `https://nextflow.io/schemas/lineage/v1beta1/lineage-schema.json#/oneOf/0/allOf/1`
+
 * [Multiple Workflow Runs](./nextflow-lineage-v1beta1-schema-oneof-multiple-workflow-runs.md "Multiple workflow runs lineage data") – `https://nextflow.io/schemas/lineage/v1beta1/lineage-schema.json#/oneOf/1`
 
 * [Parameter](./nextflow-lineage-v1beta1-schema-definitions-parameter.md "Model Workflow and Task Parameters including input/output channels and environment variables") – `https://nextflow.io/schemas/lineage/v1beta1/lineage-schema.json#/definitions/Parameter`

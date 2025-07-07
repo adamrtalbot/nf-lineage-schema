@@ -1,21 +1,29 @@
-# Single Workflow Run Schema
+# Untitled string in Nextflow Lineage Data Model v1beta1 Schema
 
 ```txt
-https://nextflow.io/schemas/lineage/v1beta1/lineage-schema.json#/oneOf/0
+https://nextflow.io/schemas/lineage/v1beta1/lineage-schema.json#/oneOf/0/allOf/1/properties/version
 ```
 
-Single workflow run lineage data
+Lineage model version identifier - must be 'lineage/v1beta1'
 
 | Abstract            | Extensible | Status         | Identifiable            | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                                                   |
 | :------------------ | :--------- | :------------- | :---------------------- | :---------------- | :-------------------- | :------------------ | :----------------------------------------------------------------------------------------------------------- |
 | Can be instantiated | No         | Unknown status | Unknown identifiability | Forbidden         | Allowed               | none                | [nextflow-lineage-v1beta1-schema.json\*](../out/nextflow-lineage-v1beta1-schema.json "open original schema") |
 
-## 0 Type
+## version Type
 
-merged type ([Single Workflow Run](nextflow-lineage-v1beta1-schema-oneof-single-workflow-run.md))
+`string`
 
-all of
+## version Constraints
 
-* [WorkflowRun](nextflow-lineage-v1beta1-schema-definitions-workflowrun.md "check type definition")
+**constant**: the value of this property must be equal to:
 
-* [Lineage Version Constraint](nextflow-lineage-v1beta1-schema-oneof-single-workflow-run-allof-lineage-version-constraint.md "check type definition")
+```json
+"lineage/v1beta1"
+```
+
+## version Examples
+
+```json
+"lineage/v1beta1"
+```

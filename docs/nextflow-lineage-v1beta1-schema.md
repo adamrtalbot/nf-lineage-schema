@@ -20,7 +20,7 @@ one (and only one) of
 
   * [WorkflowRun](nextflow-lineage-v1beta1-schema-definitions-workflowrun.md "check type definition")
 
-  * [Untitled undefined type in Nextflow Lineage Data Model v1beta1](nextflow-lineage-v1beta1-schema-oneof-single-workflow-run-allof-1.md "check type definition")
+  * [Lineage Version Constraint](nextflow-lineage-v1beta1-schema-oneof-single-workflow-run-allof-lineage-version-constraint.md "check type definition")
 
 * [Multiple Workflow Runs](nextflow-lineage-v1beta1-schema-oneof-multiple-workflow-runs.md "check type definition")
 
