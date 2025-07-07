@@ -8,6 +8,12 @@ This is an **unofficial schema** for the Nextflow lineage feature.
 - It is **not supported** in any way, shape, or form
 - Use at your own risk
 
+## Documentation
+
+See the [`docs`](./docs/README.md) directory for the documentation on the nf-lineage models.
+
+Documentation is automatically generated using [@adobe/jsonschema2md](https://github.com/adobe/jsonschema2md).
+
 ## Contributing
 
 Please feel free to:
